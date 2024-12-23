@@ -1,4 +1,21 @@
 # Books and Tasks Management App
+
+- [Books and Tasks Management App](#books-and-tasks-management-app)
+  - [Overview](#overview)
+  - [Design](#design)
+    - [Types and Interfaces (/src/types/index.ts):](#types-and-interfaces-srctypesindexts)
+    - [State Management (/src/stores/):](#state-management-srcstores)
+    - [Components:](#components)
+    - [Views (/src/views/):](#views-srcviews)
+    - [Router (/src/router/index.ts):](#router-srcrouterindexts)
+    - [UI/UX:](#uiux)
+  - [Usage](#usage)
+    - [Navigation:](#navigation)
+    - [Books Management:](#books-management)
+    - [Tasks Management:](#tasks-management)
+    - [Features Available:](#features-available)
+
+
 ## Overview
 
 A Vue 3 application with TypeScript and Bootstrap for managing Books and Tasks. 
@@ -63,3 +80,55 @@ The development server is now running. You can navigate between the Books and Ta
 
 
 The application is built with scalability in mind and can be easily extended with additional features as needed.
+
+
+## Usage
+
+The application is already set up with Vite as the development server.
+
+To run the application, simply use the following command:
+
+Start Development Server
+```
+npm run dev
+```
+The development server is now running. Here's what you can do:
+
+### Navigation:
+
+- Use the navigation bar at the top to switch between Books and Tasks sections
+- The default route will take you to the Books page
+
+### Books Management:
+
+- Click "Add New Book" to create a book
+- Fill in the required fields (ISBN, Title, Author, Price)
+- Optionally add Borrow Time and Return Time
+- Use the search bar to filter books
+- Edit or delete existing books using the action buttons
+
+### Tasks Management:
+
+- Click "Add New Task" to create a task
+- Fill in the required fields (Name, Description, Priority, Duration, Deadline)
+- Optionally add Start Time, End Time, and Tags
+- Use the search bar to filter tasks
+- Edit or delete existing tasks using the action buttons
+
+### Features Available:
+
+- Full CRUD operations (Create, Read, Update, Delete)
+- Search functionality
+- Form validation
+- Responsive design that works on all screen sizes
+
+The application uses:
+
+- Vue 3 for the frontend framework
+- TypeScript for type safety
+- Bootstrap for styling
+- Pinia for state management
+- Vue Router for navigation
+- Vuelidate for form validation
+
+The development server provides hot module replacement (HMR), so any changes you make to the code will be immediately reflected in the browser.
