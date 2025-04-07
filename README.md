@@ -154,5 +154,5 @@
 ## **5. Examples**
 1. [TodoMVC Vue.js](https://todomvc.com/examples/vue/dist/): [code](https://github.com/tastejs/todomvc/tree/gh-pages/examples/vue)
 2. [TodoMVC React](https://todomvc.com/examples/react/dist/): [code](https://github.com/tastejs/todomvc/tree/gh-pages/examples/vue)
-3. [Vue3 examples](https://github.com/vuejs/examples)  
+3. [Vue3 examples](https://vuejs.org/examples)  
 4. [Vue.js challenges](https://cn-vuejs-challenges.netlify.app/)
